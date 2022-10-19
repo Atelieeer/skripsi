@@ -1,6 +1,7 @@
 package id.kharisma.studio.atelier;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -41,6 +42,13 @@ public class Adapter extends RecyclerView.Adapter<holder> {
         Servis servis = listServis.get(position);
         holder.txtHarga.setText(servis.getHarga());
         holder.txtServis.setText(servis.getNama());
+        holder.txtHarga.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context, DetailPemesanan.class);
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override
