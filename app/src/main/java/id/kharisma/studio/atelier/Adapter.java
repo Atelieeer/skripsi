@@ -42,7 +42,7 @@ public class Adapter extends RecyclerView.Adapter<holder> {
         Servis servis = listServis.get(position);
         holder.txtHarga.setText(servis.getHarga());
         holder.txtServis.setText(servis.getNama());
-        holder.txtHarga.setOnClickListener(new View.OnClickListener() {
+        holder.txtServis.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(context, DetailPemesanan.class);
