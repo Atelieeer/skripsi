@@ -41,7 +41,7 @@ public class GoogleMap extends AppCompatActivity implements com.google.android.g
     @Override
     public void onMapReady(com.google.android.gms.maps.GoogleMap googleMap) {
         map = googleMap;
-        LatLng sydney = new LatLng(-5.157690, 119.436598);
+//        LatLng sydney = new LatLng(-5.157690, 119.436598);
         map.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(-5.157690, 119.436598), 10));
         map.setOnMyLocationButtonClickListener(this);
         enableMyLocation();
