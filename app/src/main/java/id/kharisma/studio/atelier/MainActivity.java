@@ -1,37 +1,37 @@
 package id.kharisma.studio.atelier;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.view.MenuItem;
 
-import java.util.ArrayList;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.navigation.NavigationBarView;
 
 public class MainActivity extends AppCompatActivity {
-    RecyclerView rServis;
-    RecyclerView.Adapter adapter;
-    RecyclerView.LayoutManager layoutmanager;
-    ArrayList<Servis> listServis;
-
-    void dataDummy() {
-        listServis = new ArrayList<>();
-        listServis.add(new Servis("Ganti Oli", "Estimasi Harga Rp.5000"));
-        listServis.add(new Servis("Ganti Ban", "Estimasi Harga Rp.50.000"));
-        listServis.add(new Servis("Tambal Ban", "Estimasi Harga Rp.15.000"));
-    }
-
-    void data() {
-        rServis = findViewById(R.id.reServis);
-        adapter = new Adapter(this, listServis);
-        layoutmanager = new LinearLayoutManager(this);
-        rServis.setLayoutManager(layoutmanager);
-        rServis.setAdapter(adapter);
-    }
+    BottomNavigationView bottomNavigationView;
+    HomeFragment homeFragment = new HomeFragment();
+    SettingsFragment settingsFragment = new SettingsFragment();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        dataDummy();data();
+        bottomNavigationView = findViewById(R.id.bottom_navigation);
+        getSupportFragmentManager().beginTransaction().replace(R.id.container, homeFragment).commit();
+        bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()){
+                    case R.id.home:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container, homeFragment).commit();
+                        return true;
+                    case R.id.settings:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container, settingsFragment).commit();
+                        return true;
+                }
+                return false;
+            }
+        });
     }
 }

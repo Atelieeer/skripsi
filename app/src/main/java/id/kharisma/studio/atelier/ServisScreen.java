@@ -4,16 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.ImageView;
 
 import java.util.ArrayList;
 
 public class ServisScreen extends AppCompatActivity {
-    Intent intent;
-    ImageView backArrow;
     RecyclerView rServis;
     RecyclerView.Adapter adapter;
     RecyclerView.LayoutManager layoutmanager;
@@ -38,16 +33,5 @@ public class ServisScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.servis_screen);
         dataDummy();data();
-        backArrow = findViewById(R.id.backArrow);
-        backArrow.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-//                getSupportFragmentManager().beginTransaction().replace(R.id.container, new HomeFragment()).commit();
-//                backArrow.setVisibility(View.GONE);
-                intent = new Intent(ServisScreen.this, MainActivity.class);
-                startActivity(intent);
-            }
-        });
-
     }
 }
