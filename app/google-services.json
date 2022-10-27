@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1006080651009",
+    "project_id": "otpverify-c73bb",
+    "storage_bucket": "otpverify-c73bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006080651009:android:329ef277f69202f090b500",
+        "android_client_info": {
+          "package_name": "id.kharisma.studio.atelier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006080651009-lqh7h7ii02e1kqplavr4qkglc49ichps.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.kharisma.studio.atelier",
+            "certificate_hash": "94eb92097dad8333a48315cc67fe2b6727b809d8"
+          }
+        },
+        {
+          "client_id": "1006080651009-7fmmn7frpve7o9l0tu18mp6jmosfe8rv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLdjXTKN8YxjlDzuUx8Jxp7xfWG9JBxg0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006080651009-7fmmn7frpve7o9l0tu18mp6jmosfe8rv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -8,8 +8,12 @@
         <entry key="..\:/Users/RENALDI/AndroidStudioProjects/atelier2/app/src/main/res/drawable/rounded_button.xml" value="0.1445" />
         <entry key="..\:/Users/RENALDI/AndroidStudioProjects/atelier2/app/src/main/res/drawable/rounded_button_green.xml" value="0.1445" />
         <entry key="..\:/Users/RENALDI/AndroidStudioProjects/atelier2/app/src/main/res/layout/activity_detail_pemesanan.xml" value="0.22" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/atelier2/app/src/main/res/layout/activity_google_map.xml" value="0.1621376811594203" />
         <entry key="..\:/Users/RENALDI/AndroidStudioProjects/atelier2/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/RENALDI/AndroidStudioProjects/atelier2/app/src/main/res/layout/daftarservis.xml" value="0.67" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/atelier2/app/src/main/res/layout/googlemaps.xml" value="0.22" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/atelier2/app/src/main/res/layout/ui_login.xml" value="0.22" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/atelier2/app/src/main/res/layout/ui_loginkodeotp.xml" value="0.33" />
       </map>
     </option>
   </component>
