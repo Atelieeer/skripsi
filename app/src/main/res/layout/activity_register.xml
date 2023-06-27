@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Sign Up"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create a new account"
+        android:layout_marginTop="5dp" />
+    <EditText
+        android:id="@+id/txtRegisterNamaLengkap"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/round_back_dark_blue"
+        android:hint="Nama Lengkap"
+        android:maxLines="1"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="40dp" />
+    <EditText
+        android:id="@+id/txtRegisterNoHp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/round_back_dark_blue"
+        android:hint="No Hp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="40dp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRegisterSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/round_back_primary"
+        android:textColor="#ffffff" />
+    <ProgressBar
+        android:id="@+id/progressBarSignUp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+        <View
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_toStartOf="@+id/orTxt"
+            android:background="#1A000000" />
+        <TextView
+            android:id="@+id/orTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OR"
+            android:layout_centerInParent="true"
+            android:textSize="12sp"
+            android:textColor="#80000000" />
+        <View
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/orTxt"
+            android:background="#1A000000" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="100dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account ?"/>
+        <TextView
+            android:id="@+id/btnRegisterSignIn"
+            android:layout_marginStart="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textColor="#1286FA"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>

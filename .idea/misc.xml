@@ -3,6 +3,57 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1435" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/drawable/back_btn.xml" value="0.1435" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/drawable/background_btn_white.xml" value="0.1435" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/drawable/blue_button.xml" value="0.1" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/drawable/chat_icon.xml" value="0.1435" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/drawable/consultation_icon.xml" value="0.1435" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/drawable/gear_icon.xml" value="0.1435" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/drawable/home.xml" value="0.1435" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/drawable/home_bg_1.xml" value="0.1435" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/drawable/home_bg_2.xml" value="0.1435" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/drawable/home_bg_3.xml" value="0.1435" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/drawable/ic_circle_shape.xml" value="0.155" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/drawable/ic_exit.xml" value="0.1435" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1435" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/drawable/ic_location.xml" value="0.155" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/drawable/ic_person.xml" value="0.1435" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/drawable/kotak_2.xml" value="0.1435" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/drawable/my_msg_back.xml" value="0.155" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/drawable/opo_msg_back.xml" value="0.155" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/drawable/profile.xml" value="0.1435" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/drawable/rectangle_shape.xml" value="0.144" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/drawable/round_back_dark_blue.xml" value="0.144" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/drawable/round_back_light.xml" value="0.1435" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/drawable/round_back_primary.xml" value="0.144" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/drawable/round_back_theme_1000.xml" value="0.1435" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/drawable/rounded_button_green.xml" value="0.144" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/drawable/rounded_button_red.xml" value="0.144" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/drawable/search_icon.xml" value="0.1435" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/drawable/send_btn.xml" value="0.1435" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/layout/activity_chat.xml" value="0.13" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/layout/activity_detail_pemesanan.xml" value="0.25" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/layout/activity_google_map.xml" value="0.1" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/layout/activity_main.xml" value="0.16032608695652173" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/layout/activity_otpverification.xml" value="0.25" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/layout/activity_splash_screen.xml" value="0.15942028985507245" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/layout/bottom_sheet.xml" value="0.18614130434782608" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/layout/chat_adapter_layout.xml" value="0.25" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/layout/daftar_detail.xml" value="0.18" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/layout/daftarservis.xml" value="0.25" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_chat.xml" value="0.25" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_settings.xml" value="0.22" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/layout/messages_adapter_layout.xml" value="0.25" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/layout/servis_screen.xml" value="0.25" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/layout/ui_detailpesanan.xml" value="0.25" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/layout/ui_home.xml" value="0.2" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RENALDI/AndroidStudioProjects/Application/app/src/main/res/mipmap-anydpi-v26/logo_reparation.xml" value="0.1435" />
         <entry key="..\:/Users/RENALDI/AndroidStudioProjects/atelier2/app/src/main/res/drawable-anydpi/back_arrow.xml" value="0.1415" />
         <entry key="..\:/Users/RENALDI/AndroidStudioProjects/atelier2/app/src/main/res/drawable/rectangle_shape.xml" value="0.1445" />
         <entry key="..\:/Users/RENALDI/AndroidStudioProjects/atelier2/app/src/main/res/drawable/rounded_button.xml" value="0.1445" />

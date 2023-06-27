@@ -1,20 +1,21 @@
 {
   "project_info": {
     "project_number": "1006080651009",
+    "firebase_url": "https://otpverify-c73bb-default-rtdb.firebaseio.com",
     "project_id": "otpverify-c73bb",
     "storage_bucket": "otpverify-c73bb.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1006080651009:android:329ef277f69202f090b500",
+        "mobilesdk_app_id": "1:1006080651009:android:8da92f17d7c8936f90b500",
         "android_client_info": {
           "package_name": "id.kharisma.studio.atelier"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1006080651009-lqh7h7ii02e1kqplavr4qkglc49ichps.apps.googleusercontent.com",
+          "client_id": "1006080651009-n8bv5nemr4j69tvsrusuk2dhpip49a6q.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "id.kharisma.studio.atelier",

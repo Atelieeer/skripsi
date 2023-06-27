@@ -1,9 +1,10 @@
 package id.kharisma.studio.atelier;
 
 public class Servis {
-        private String nama, harga;
-
-        public Servis(String nama, String harga) {
+        private String nama;
+        long harga;
+        public Servis(){}
+        public Servis(String nama, long harga) {
             this.nama = nama;
             this.harga = harga;
         }
@@ -17,11 +18,10 @@ public class Servis {
         }
 
         public String getHarga() {
-            return harga;
+            return ("Estimasi Harga Rp. "+String.valueOf(harga));
         }
 
-        public void setHarga(String harga) {
+        public void setHarga(long harga) {
             this.harga = harga;
         }
-
 }
